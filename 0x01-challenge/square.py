@@ -4,11 +4,10 @@
 
 class Square():
     """Defines a square"""
-    
+
     width = 0
     height = 0
 
-    
     def __init__(self, *args, **kwargs):
         """initialize"""
         for key, value in kwargs.items():
@@ -25,6 +24,7 @@ class Square():
     def __str__(self):
         """string representation"""
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
 
