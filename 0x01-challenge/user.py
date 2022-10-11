@@ -23,8 +23,8 @@ class User():
         """ Documentation """
         if type(value) is not str:
             raise TypeError("email must be a string")
-            self.__email = value
-
+        self.__email = value
+    
 
 if __name__ == "__main__":
 
